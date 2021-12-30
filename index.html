@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-sm bg-light navbar-light shadow-sm fixed-top">
+    <div class="container">
+      <div class="menuToggle">
+        <i class="bi bi-list "></i>
+      </div>
+      <a class="navbar-brand color-black m-2" href="#">CHALDAL</a>
+
+      <ul class="navbar-nav ms-auto ">
+        <div class="searchbox m-2 ">
+          <input type="text" name="search" placeholder="Serch your product" class="search " id="search">
+        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex" data-toggle="tooltip" data-placement="top" title="Get the locations" href="#"><i
+              class="bi bi-geo-alt-fill"></i>Dhaka<i class="bi bi-chevron-down "></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help&More</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">EN/BAN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <i class="bi bi-box-arrow-in-right p-1 ml-2"></i>Sign in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="submenu__lists slideInLeft ">
+    <ul>
+      <li><a href="#" >Offer<span class="border border-white p-1 m-1">92</span></a></li>
+      <li><a href="#">Food Aid</a></li>
+      <br /> <br />
+      <li><a href="#">👌Popular</a></li>
+      <li><a href="#">🍤Hygiene</a></li>
+      <li><a href="#">🔥Flash Sales</a></li>
+      <li><a href="#">👼Baby Care</a></li>
+      <li><a href="#">🐰Pet Care</a></li>
+      <li><a href="#">🍉Food</a></li>
+      <li><a href="#">🧹Home & Cleaning</a></li>
+      <li><a href="#">👩‍⚕️office & Products</a></li>
+      <li><a href="#">🧑‍💼Beauty & Health</a></li>
+      <li><a href="#">💇Home Appliances</a></li>
+    </ul>
+  </div>
+
+<div class="cart text-center">
+  <div class="cartitem">
+  <i class="bi bi-bag-check-fill"></i>
+  <p>1 ITEM</p>
+  <span>$000</span>
+  </div>
+</div>
+
+  <div class="homeSection img-fluid">
+    <div class="hometxtInput text-center">
+      <h1 class=" text-center p-2 hometxt">Groceries delivered in 1 hour</h1>
+      <input type="text" name="name" placeholder="search for products(egg,milk,bag,fan etc)" class=" homeInput"
+        id="homeinput">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <img class="m-1 w-100 homTwoImg"
+          src="https://chaldn.com/_mpimage?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D82368&q=low&v=1&m=588&webp=1"
+          alt="">
+      </div>
+      <div class="col-6 ">
+        <img class="m-1 w-100 homTwoImg"
+          src="https://chaldn.com/_mpimage?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D82369&q=low&v=1&m=588&webp=1"
+          alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-3">
+    <div class="row">
+      <div class="catagories__heading text-center p-3">
+        <h2>Our Product Categories</h2>
+      </div>
+      <div class="row">
+        <div class="col col-lg-4 col-md-12">
+          <div class="fruits__vegetable catagorieslist">
+            <p>Vegetables</p>
+          </div>
+        </div>
+        <div class="col col-lg-4  col-md-12">
+          <div class="meat__fish catagorieslist">
+            <p>Fishes</p>
+          </div>
+        </div>
+        <div class="col col-lg-4  col-md-12">
+          <div class="cooking catagorieslist">
+            <p>Cooking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-lg-4">
+          <div class="fruits__vegetable catagorieslist">
+            <p>Fruits</p>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="meat__fish catagorieslist">
+            <p>Mutton</p>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="cooking catagorieslist">
+            <p>Chicken</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-lg-4">
+          <div class="fruits__vegetable catagorieslist">
+            <p>Guellery</p>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="meat__fish catagorieslist">
+            <p>Gocery</p>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="cooking catagorieslist">
+            <p>Medicine</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-lg-4">
+          <div class="fruits__vegetable catagorieslist">
+            <p>Books</p>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="meat__fish catagorieslist">
+            <p>Laptops</p>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="cooking catagorieslist">
+            <p>Mobiles</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- <section >
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="Howto__order text-center p-3">
+                <h2>How to order from chaldal</h2>
+              </div>
+              <div class="order__animation img-thumbnail">
+                
+              </div>            
+             
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+  <section class="m-3">
+    <div class="container">
+      <div class="row">
+        <div class="col w-100">
+          <h2 class="text-center p-3">How to order from Chaldal ?</h2>
+          <div class="txt-center w-100 position-relative order__animation image" alt=""></div>
+          <!-- <button class="arrow__left txt-center" onclick="prev()"><i class="bi bi-chevron-left"></i></button>
+           <button class="arrow__right txt-center" onclick="next()"><i class="bi bi-chevron-right"></i></button> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="container text-center my-3">
+    <h2 class="font-weight-light">Bootstrap Multi Slide Carousel</h2>
+    <div class="row mx-auto my-auto justify-content-center">
+      <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    src="https://chaldn.com/_mpimage/pepsodent-toothpaste-charcoal-white-multipack-140-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D75409&q=low&v=1&webp=1"
+                    class="img-fluid">
+                  <button class="cart__btn">Add to cart</button>
+                </div>
+                <div class="card-img-overlay">Slide 1</div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    src="https://chaldn.com/_mpimage/lifebuoy-handwash-total-pump-200-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D80472&q=low&v=1&webp=1"
+                    class="img-fluid">
+                  <button class="cart__btn">Add to cart</button>
+                </div>
+                <div class="card-img-overlay">Slide 2</div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    src="https://chaldn.com/_mpimage/surf-excel-washing-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D80477&q=low&v=1&webp=1"
+                    class="img-fluid">
+                  <button class="cart__btn">Add to cart</button>
+                </div>
+                <div class="card-img-overlay">Slide 3</div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    src="https://chaldn.com/_mpimage/dettol-disinfectant-surface-spray-original-pine-225-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D80933&q=low&v=1&webp=1"
+                    class="img-fluid">
+                  <button class="cart__btn">Add to cart</button>
+                </div>
+                <div class="card-img-overlay">Slide 4</div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    src="https://chaldn.com/_mpimage/vim-diswashing-liquid-spout-multipack-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D75396&q=low&v=1&webp=1"
+                    class="img-fluid">
+                  <button class="cart__btn">Add to cart</button>
+                </div>
+                <div class="card-img-overlay">Slide 5</div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    src="https://chaldn.com/_mpimage/goalini-full-cream-milk-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79223&q=low&v=1&webp=1"
+                    class="img-fluid">
+                  <button class="cart__btn">Add to cart</button>
+                </div>
+                <div class="card-img-overlay">Slide 6</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <section>
+    <div class="container">
+      <div class="col text-center p-3">
+        <h2>Why People ❤️ Chaldal</h2>
+      </div>
+      <div class="row">
+        <div class="col d-flex">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2277/Default/stores/chaldal/components/landingPage2/LandingPage/images/lp-features-1.jpg?v=2&q=low&webp=1"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Convenient & Quick</h5>
+                <p class="card-text">No waiting in traffic, no haggling, no worries carrying groceries, they're
+                  delivered right at your door</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2277/Default/stores/chaldal/components/landingPage2/LandingPage/images/lp-features-2.jpg?q=low&webp=1"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Freshly Picked</h5>
+                <p class="card-text">Our fresh produce is sourced every morning, you get the best from us.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2277/Default/stores/chaldal/components/landingPage2/LandingPage/images/lp-features-3.jpg?q=low&webp=1"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">A wide range of Products</h5>
+                <p class="card-text">With 4000+ Products to choose from, forget scouring those aisles for hours.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <section class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center">What our clients are saying?</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 text-center ">
+          <img class="m-3 w-25"
+            src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2318/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_abedul_hoque_rakib.png?q=low&webp=1&alpha=1"
+            alt="">
+          <h3> Abedul Hoque Rakib</h3>
+        </div>
+        <div class="col-8">
+          <p class="mt-4 client__comments1"> I have been shopping from chaldal for the past few months and i am loving
+            the experience. Have been shopping from here and i have recommended my relatives too. They are also happy
+            with the service. The prices are comparatively low and the products are genuine.</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-8">
+          <p class="mt-4 client__comments2"> Loved the service! I urgently needed some stuffs and ordered it here and
+            they delivered in less than an hour as promised! Thanks a lot for that.</p>
+        </div>
+        <div class="col-4 text-center ">
+          <img class="m-3 w-25"
+            src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2318/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_ashfia_ahmed.png?q=low&webp=1&alpha=1"
+            alt="">
+          <h3> Ashfia Ahmed</h3>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-4 text-center ">
+          <img class="m-3 w-25"
+            src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2318/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_faiza_haque.png?q=low&webp=1&alpha=1"
+            alt="">
+          <h3> Faiza Haque</h3>
+        </div>
+        <div class="col-8">
+          <p class="mt-4 client__comments1"> Congratulations for being nominated for 9th best entrepreneur among 500 new
+            entrepreneurs by Forbes Magazine!!! I wish chaldal team the very best.. And your products types, brand types
+            need to be extended more.</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-8">
+          <p class="mt-4 client__comments2">
+            "Satisfied by their professionalism ! Got my tea bags in time. Didn't have to pay any delivery charge. I
+            can't believe that. Keep it up !
+        </div>
+        <div class="col-4 text-center ">
+          <img class="m-3 w-25"
+            src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2318/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_srabon_hasan.png?q=low&webp=1&alpha=1"
+            alt="">
+          <h3> Srabon Ahmed</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class=" p-5 helpcenter_cutomer">
+    <div class="container">
+      <div class="helop__line text-center ">
+        <i class="bi bi-briefcase-fill bussinessIcon"></i>
+        <h2>Do you own a business?<br />
+          Become a Corporate Customer</h2>
+      </div>
+      <div class="row m-3 p-5">
+        <div class="col col-lg-4 text-center">
+          <i class="bi bi-cash-coin helpCenter__Icon"></i>
+          <p>Special Corporate Prices</p>
+        </div>
+        <div class="col col-lg-4 text-center">
+          <i class="bi bi-headset helpCenter__Icon"></i>
+          <p>24 hours support</p>
+        </div>
+        <div class="col col-4 text-center">
+          <i class="bi bi-truck helpCenter__Icon"></i>
+          <p>Flexible free delivery</p>
+        </div>
+      </div>
+      <div class="text-center findout__btn">
+        <button>Find Out More</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-6 text-center mt-5 ">
+          <h2 class="m-5">Be a part of our family</h2>
+          <div class="get__app text-center">
+            <input type="text" placeholder="Enter your number" /> <button>Get app</button>
+            <div class=" mt-5 text-center playstore">
+              <img class="w-25"
+                src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2325/Default/stores/chaldal/components/landingPage2/MobileAppSection/images/lp_getandroidapp.png?v=2&q=low&webp=1&alpha=1"
+                alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-lg-6">
+          <div class="getappsec__img mt-5">
+            <img class="mt-5  float-right"
+              src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2325/Default/stores/chaldal/components/landingPage2/MobileAppSection/images/lp_iphone_nexus.png?v=2&q=low&webp=1&alpha=1"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="loca__total">
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-6">
+          <div class="map mt-5">
+            <img
+              src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2325/Default/stores/chaldal/components/landingPage2/LandingPage/images/chaldal_new_warehouses.png?q=low&webp=1&alpha=1"
+              alt="">
+          </div>
+        </div>
+        <div class="col col-lg-2 ">
+          <div class="line">
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <div class="total float-right">
+            <h3>Dhaka <br /><br />
+              Total Orders Placed<br /><br />
+              2609748<br /><br />
+              Total Savings<br /><br />
+              ৳221,828,580<br /><br />
+              Time Saved<br /><br />
+              1,957,311 hrs<br /><br />
+            </h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="footer p-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="fotter__top__left">
+            <li><a href="#"><img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/stores/chaldal/components/page/BrandComponent/images/1-hour.png?q=low&webp=1&alpha=1"
+                  alt="">1 hour delivery <img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/stores/chaldal/components/page/BrandComponent/images/cash-on-delivery.png?q=low&webp=1&alpha=1"
+                  alt="">Cash on delivery</a></li>
+          </div>
+        </div>
+        <div class="col">
+          <div class="fotter__top__right float-right">
+            <p>Pay with:
+              <a href="#"><img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/components/shared/NewFooter/images/Amex.png?q=low&webp=1&alpha=1"
+                  alt=""></a>
+              <a href="#"><img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/components/shared/NewFooter/images/mastercard.png?q=low&webp=1&alpha=1"
+                  alt=""></a>
+              <a href="#"><img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/components/shared/NewFooter/images/VIsa.png?q=low&webp=1&alpha=1"
+                  alt=""></a>
+              <a href="#"><img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/components/shared/NewFooter/images/bkash.png?v=1&q=low&webp=1&alpha=1"
+                  alt=""></a>
+              <a href="#"><img class="payment__deli__icon"
+                  src="https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2327/Default/components/shared/NewFooter/images/COD.png?v=1&q=low&webp=1&alpha=1"
+                  alt=""></a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>chaldal</h2>
+          <p>Chaldal.com is an online shop available in Dhaka, Narayanganj, Chattogram and Jashore. We believe time is
+            valuable to our fellow residents, and that they should not have to waste hours in traffic, brave bad weather
+            and wait in line just to buy basic necessities like eggs!</p>
+        </div>
+
+        <div class="col">
+          <h2>Office</h2>
+          <p>ITPL Road</p>
+          <p>Whitefield,Lakshmipur</p>
+          <p>Lakshmipur,PIN-535600</p>
+          <p>chaldalofficial@gmail.com</p>
+          <p>+880-01727766625</p>
+        </div>
+
+        <div class="col">
+          <h2>Links</h2>
+          <p>Home</p>
+          <p>Services</p>
+          <p>About us</p>
+          <p>Features</p>
+          <p>Contact</p>
+        </div>
+
+        <div class="col float-left">
+          <h2>Newsletter</h2>
+          <input type="email" placeholder="enter your email">
+          <div class="listof__socialIcon">
+            <div class=" mt-3 color-white">
+              <i class="bi bi-facebook m-2 fb"></i>
+              <i class="bi bi-linkedin m-2 linkedin"></i>
+              <i class="bi bi-envelope-fill m-2 email"></i>
+              <i class="bi bi-whatsapp m-2 whatsapp"></i>
+              <i class="bi bi-telephone-outbound-fill m-2 phone"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script type="text/javascript">
+
+  </script>
+</body>
+
+</html>
